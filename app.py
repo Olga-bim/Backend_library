@@ -4,10 +4,10 @@ import os
 import logging
 from datetime import datetime, timedelta
 from extensions import db  # Импортируйте db из extensions.py
-from models.book import Book
-from models.customer import Customer, CustomerType
-from models.loan import Loan, LoanType
-from models.cart import Cart
+from book import Book
+from customer import Customer, CustomerType
+from loan import Loan, LoanType
+from cart import Cart
 
 import unittest
 
