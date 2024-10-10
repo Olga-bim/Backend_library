@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-from backend.extensions import db  # Импортируйте db из extensions.py
+from extensions import db  # Импортируйте db из extensions.py
 from enum import Enum
 
 

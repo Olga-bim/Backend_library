@@ -3,7 +3,7 @@ from flask_cors import CORS
 import os
 import logging
 from datetime import datetime, timedelta
-from backend.extensions import db  # Импортируйте db из extensions.py
+from extensions import db  # Импортируйте db из extensions.py
 from models.book import Book
 from models.customer import Customer, CustomerType
 from models.loan import Loan, LoanType
